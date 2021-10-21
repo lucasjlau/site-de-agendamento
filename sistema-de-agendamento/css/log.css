@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'barbearia';
+    src: url('../fonts/barbershop_in_thailand/Barbershop\ in\ Thailand.ttf') format('truetype');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --creme: #CCCDCC;
+    --cinzaforte: #525254
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../imagens/capa-corte.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.container {
+    height: 400px;
+    text-align: center;
+}
+div > form {
+    padding-top: 25px;
+}
+div > form > h1 {
+    font-family: 'barbearia';
+    font-size: 70px;
+    font-weight: lighter;
+    color:white;
+    margin-bottom: 40px;
+}
+div > form > input {
+    height: 40px;
+    font-family: 'barbearia';
+    font-size: 25px;
+    color: white;
+    background-color: var(--cinzaforte);
+    border: 2px solid;
+    margin-bottom: 30px;
+}
+div > form > button {
+    height: 35px;
+    width: 340px;
+    font-family: 'barbearia';
+    font-size: 25px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color: var(--cinzaforte);
+    border: 2px solid var(--creme);
+    color: white;
+    padding-top: 4px;
+
+}
+div > form > a {
+    color: white;
+    font-family: 'barbearia';
+    font-size: 25px;
+    text-decoration: none;
+    cursor: pointer;
+}
+div > form > section {
+    padding-top: 20px;
+    font-family: 'barbearia';
+    font-size: 40px;
+    font-weight: lighter;
+    color: white;
+}
+/*   HOVER   */
+
+div > form > a:hover {
+    text-decoration: underline;
+}
+div > form > button:hover {
+    border: 1px solid white;
+    font-size: 22px;
+}
+
+/* PLACEHOLDER */
+div > form > input::placeholder {
+    color: white;
+    padding-left: 15px;
+}

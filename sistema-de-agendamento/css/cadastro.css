@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'barbearia';
+    src: url('../fonts/barbershop_in_thailand/Barbershop\ in\ Thailand.ttf');
+}
+body {
+    font-family: 'barbearia';
+}
+main {
+    max-height: 450px;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+div.ima {
+    margin: auto;
+}
+div.for {
+    margin: auto;
+}
+img {
+    max-width: 360px;
+}
+form > h1 {
+    color: black;
+    margin: 30px auto 30px auto;
+    font-size: 50px;
+    font-weight: lighter;
+}
+form > input {
+    margin: 10px auto;
+    height: 30px;
+    border: 2px solid black;
+    font-family: 'barbearia';
+    font-size: 17px;
+    font-weight: lighter;
+}
+form > button {
+    margin: 20px auto;
+    height: 35px;
+    width: 185px;
+    border: 2px solid black;
+    font-family: 'barbearia';
+    font-size: 25px;
+    font-weight: lighter;
+    padding-top: 3px;
+}
+form > a {
+    display: inline-block;
+    margin: 20px auto;
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+footer {
+    display: inline-block;
+    color: red;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 12%;
+}
+p.erros {
+    color: red;
+}
+p.cadastrado {
+    color: green;
+}
+/* HOVER */
+form > button:hover {
+    border: 1px solid black;
+    font-size: 20px;
+    cursor: pointer;
+}
+form > a:hover {
+    text-decoration: underline;
+}
+form > input:hover {
+    border: 1px solid black;
+}
+/* PLACEHOLDER */ 
+form > input::placeholder {
+    font-family: 'barbearia';
+    font-size: 17px;
+    font-weight: lighter;
+    color: black;
+    padding-left: 6px;
+}
+form > input#telefone::placeholder {
+    font-size: 14px;
+    padding-top: 4px;
+}
